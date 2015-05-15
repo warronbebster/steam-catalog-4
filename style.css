@@ -50,7 +50,7 @@ a {
     text-decoration: none;
 }
 section {
-    background-color: #fdffe1;
+    /*background-color: white;*/
     /*height: 100vh;*/
     
     min-height: 720px;
@@ -58,12 +58,7 @@ section {
     margin: 0;
     padding: 0;
 }
-.yes {
-    background-image: url(img/bottomleft.svg), url(img/topleft.svg), url(img/topright.svg), url(img/bottomright.svg), url(img/bottomcenter.svg), url(img/centerleft.svg), url(img/centerright.svg);
-    background-position: left bottom, left top, right top, right bottom, center bottom, left center, right center;
-    background-size: auto 60px, auto 60px, auto 60px, auto 60px, auto 20px, 20px auto, 20px auto;
-    background-repeat: no-repeat;
-}
+
 article {
     padding: 80px 80px 80px 80px;
     height: 100%;
@@ -92,21 +87,6 @@ dt {
     font-weight: bold;
     line-height: 130%;
 }
-/*.column {
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    -o-columns: 2;
-    columns: 2;
-    -webkit-column-gap: 100px;
-    -moz-column-gap: 100px;
-    -o-column-gap: 100px;
-    column-gap: 100px;
-    -webkit-column-fill: auto;
-    -moz-column-fill: auto;
-    column-fill: auto;
-    height: 90%;
-    overflow: hidden;
-}*/
 
 .pagination {
     width: 50%;
@@ -162,13 +142,11 @@ a:hover {
     text-shadow: 2px 5px 5px rgba(0, 0, 0, .5);
 }
 h1 {
-    color: #fdffe1;
     font-size: 9vw;
     line-height: 120%;
     letter-spacing: 2px;
 }
 h2 {
-    color: #fdffe1;
     font-size: 4.5vw;
     line-height: 120%;
     padding-top: 10px;
@@ -182,8 +160,8 @@ h2 {
 h3 {
     line-height: 120%;
     font-size: 2.5vw;
-    color: #fdffe1;
     padding-bottom: 30px;
+
 }
 h3 a {
     color: #fdffe1 !important;
@@ -213,10 +191,16 @@ ol {
     -o-column-break-after: always;
 }
 #cover {
-    background-color: black;
+    background-color: #555;
+    background-image: url('img/colorbars.jpg');
+    background-size: 100% 100%;
+    background-blend-mode:screen;
 }
 #cover article {
     padding-bottom: 0px;
+}
+#cover article h1, #cover article h2, #cover article h3, #cover article a{
+    color: black;
 }
 .bold {
     font-weight: bold;
@@ -226,6 +210,8 @@ ol {
     float: left;
     height: 110px;
     margin-right: 20px;
+    font-size: 120px;
+    font-weight: bold;
 }
 h5 {
     font-size: 30px;
@@ -238,7 +224,6 @@ h5 {
     clear: both;
 }
 .image_hold {
-    background-color: #fdffe1;
     width: 460px;
     transition: background-position 1s;
     -moz-transition: background-position 1s;

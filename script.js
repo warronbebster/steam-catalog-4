@@ -33,4 +33,13 @@ $(function() {
             }
         }
     });
+
+
+    $('.page_numbers').each(function(i, obj) {
+    //test
+        obj.textContent = i+1;
+
+    });
+
+
 });
