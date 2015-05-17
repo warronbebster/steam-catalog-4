@@ -206,6 +206,11 @@ ol {
     font-weight: bold;
     letter-spacing:0;
 }
+
+.italic{
+    font-style: italic;
+    letter-spacing: 0;
+}
 .big_number {
     float: left;
     height: 110px;
@@ -598,6 +603,11 @@ img {
     .text_img {
         max-width: 100%;
     }
+
+    #fourteen1{
+        height: 10px;
+    }
+    /* below are OLD formatting*/
     #one1 {
         height: 400px;
     }
@@ -683,9 +693,9 @@ img {
     #thirteen2 {
         height: 350px;
     }
-    #fourteen1 {
+    /*#fourteen1 {
         height: 295px;
-    }
+    }*/
     #fifteen1 {
         height: 180px;
     }
