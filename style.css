@@ -42,9 +42,9 @@ table {
 }
 body {
     font-family: CenturyOldStyle, 'Century Old Style STD', serif;
+    font-size: 18px;
     letter-spacing: .025em;
     overflow-x: hidden;
-    font-size: 18px;
 }
 a {
     text-decoration: none;
