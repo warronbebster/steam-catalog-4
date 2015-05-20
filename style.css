@@ -3,6 +3,11 @@
    License: none (public domain)
 */
 
+@font-face{
+    font-family: RobotoSlabLight;
+    src: url(roboto-slab.light.ttf);
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -43,7 +48,8 @@ table {
 body {
     /*font-family: CenturyOldStyle, 'Century Old Style STD', serif;
     font-size: 18px;*/
-    font-family: 'Roboto Slab', serif;
+    /*font-family: 'Roboto Slab', serif;*/
+    font-family: RobotoSlabLight;
     font-size: 16px;
     letter-spacing: .025em;
     overflow-x: hidden;
@@ -196,7 +202,7 @@ ol {
     background-color: #555;
     background-image: url('img/colorbars.jpg');
     background-size: 100% 100%;
-    background-blend-mode:screen;
+    background-blend-mode: screen;
 }
 #cover article {
     padding-bottom: 0px;
@@ -257,6 +263,18 @@ h5 {
     padding: 40px;
     max-width: 1080px;
     margin: 0 auto;
+}
+
+#title{
+    text-shadow: -2px 2px #FFFFFF;
+}
+
+#produced{
+    text-shadow: -1px 1px #FFFFFF;
+}
+
+#spring{
+    text-shadow: -1px 1px #FFFFFF;
 }
 
 #three1 {
@@ -374,13 +392,33 @@ h5 {
     background-image: url('img/12-3/yellow.jpg'), url('img/12-3/cyan.jpg'), url('img/12-3/magenta.jpg'), url('img/12-3/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
+#fourteen1{
+    height: 310px;
+    background-image: url('img/14-1/yellow.jpg'), url('img/14-1/cyan.jpg'), url('img/14-1/magenta.jpg'), url('img/14-1/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#fourteen2{
+    height: 310px;
+    background-image: url('img/14-2/yellow.jpg'), url('img/14-2/cyan.jpg'), url('img/14-2/magenta.jpg'), url('img/14-2/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#fourteen3{
+    height: 310px;
+    background-image: url('img/14-3/yellow.jpg'), url('img/14-3/cyan.jpg'), url('img/14-3/magenta.jpg'), url('img/14-3/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#fourteen4{
+    height: 750px;
+    background-image: url('img/14-4/yellow.jpg'), url('img/14-4/cyan.jpg'), url('img/14-4/magenta.jpg'), url('img/14-4/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
 #cat4big {
     height: 750px;
     background-image: url('img/other/yellow.png'), url('img/other/cyan.png'), url('img/other/magenta.png');
     background-position: 45px 0, 45px 45px, 0 0, 0 45px;
 }
 
-#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover{
+#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover{
     background-position: 0 0;
     transition: background-position 1.5s ;
     -moz-transition: background-position 1.5s ;
@@ -391,6 +429,12 @@ h5 {
     transition: background-position 1.5s ;
     -moz-transition: background-position 1.5s ;
     -webkit-transition: background-position 1.5s ;
+}
+#fourteen4:hover{
+    background-position: 13px 13px;
+    transition: background-position 1.5s 0;
+    -moz-transition: background-position 1.5s 0;
+    -webkit-transition: background-position 1.5s 0;
 }
 /*
 #seventeen2 {
@@ -438,8 +482,8 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 90%; /*modified for STEAM Pavilion video */
+    height: 90%;
 }
 /*------------*/
 /*--------*/
@@ -468,6 +512,9 @@ img {
     }
     .threeeightfive {
         max-width: 385px;
+    }
+    .threehundred {
+        max-width: 300px;
     }
 }
 @media screen and (max-width: 1080px) {
@@ -645,6 +692,18 @@ img {
     }
     #twelve3{
         height: 225px;
+    }
+    #fourteen1{
+        height: 225px;
+    }
+    #fourteen2{
+        height: 225px;
+    }
+    #fourteen3{
+        height: 225px;
+    }
+    #fourteen4{
+        height: 360px;
     }
     #cat4big{
         height: 220px;
