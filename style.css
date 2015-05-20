@@ -41,8 +41,10 @@ table {
     -webkit-box-sizing: border-box;
 }
 body {
-    font-family: CenturyOldStyle, 'Century Old Style STD', serif;
-    font-size: 18px;
+    /*font-family: CenturyOldStyle, 'Century Old Style STD', serif;
+    font-size: 18px;*/
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
     letter-spacing: .025em;
     overflow-x: hidden;
 }
@@ -257,74 +259,74 @@ h5 {
     margin: 0 auto;
 }
 
-#two1 {
+#three1 {
     height: 325px;
-    background-image: url('img/2-1/yellow.jpg'), url('img/2-1/cyan.jpg'), url('img/2-1/magenta.jpg'), url('img/2-1/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#two2 {
-    height: 300px;
-    background-image: url('img/2-2/yellow.jpg'), url('img/2-2/cyan.jpg'), url('img/2-2/magenta.jpg'), url('img/2-2/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#two3 {
-    height: 340px;
-    background-image: url('img/2-3/yellow.jpg'), url('img/2-3/cyan.jpg'), url('img/2-3/magenta.jpg'), url('img/2-3/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#two4 {
-    height: 330px;
-    background-image: url('img/2-4/yellow.jpg'), url('img/2-4/cyan.jpg'), url('img/2-4/magenta.jpg'), url('img/2-4/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#two5 {
-    height: 300px;
-    background-image: url('img/2-5/yellow.jpg'), url('img/2-5/cyan.jpg'), url('img/2-5/magenta.jpg'), url('img/2-5/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#two6 {
-    height: 325px;
-    background-image: url('img/2-6/yellow.jpg'), url('img/2-6/cyan.jpg'), url('img/2-6/magenta.jpg'), url('img/2-6/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#three1{
-    height: 450px;
     background-image: url('img/3-1/yellow.jpg'), url('img/3-1/cyan.jpg'), url('img/3-1/magenta.jpg'), url('img/3-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
-#three2{
+#three2 {
     height: 300px;
     background-image: url('img/3-2/yellow.jpg'), url('img/3-2/cyan.jpg'), url('img/3-2/magenta.jpg'), url('img/3-2/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
-#five1{
+#three3 {
+    height: 340px;
+    background-image: url('img/3-3/yellow.jpg'), url('img/3-3/cyan.jpg'), url('img/3-3/magenta.jpg'), url('img/3-3/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#three4 {
+    height: 330px;
+    background-image: url('img/3-4/yellow.jpg'), url('img/3-4/cyan.jpg'), url('img/3-4/magenta.jpg'), url('img/3-4/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#three5 {
     height: 300px;
+    background-image: url('img/3-5/yellow.jpg'), url('img/3-5/cyan.jpg'), url('img/3-5/magenta.jpg'), url('img/3-5/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#three6 {
+    height: 325px;
+    background-image: url('img/3-6/yellow.jpg'), url('img/3-6/cyan.jpg'), url('img/3-6/magenta.jpg'), url('img/3-6/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#four1{
+    height: 450px;
+    background-image: url('img/4-1/yellow.jpg'), url('img/4-1/cyan.jpg'), url('img/4-1/magenta.jpg'), url('img/4-1/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#four2{
+    height: 300px;
+    background-image: url('img/4-2/yellow.jpg'), url('img/4-2/cyan.jpg'), url('img/4-2/magenta.jpg'), url('img/4-2/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#five1{
+    height: 360px;
     background-image: url('img/5-1/yellow.jpg'), url('img/5-1/cyan.jpg'), url('img/5-1/magenta.jpg'), url('img/5-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
+#five2{
+    height: 360px;
+    background-image: url('img/5-2/yellow.jpg'), url('img/5-2/cyan.jpg'), url('img/5-2/magenta.jpg'), url('img/5-2/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
 #six1{
-    height: 340px;
+    height: 300px;
     background-image: url('img/6-1/yellow.jpg'), url('img/6-1/cyan.jpg'), url('img/6-1/magenta.jpg'), url('img/6-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #seven1{
-    height: 280px;
+    height: 340px;
     background-image: url('img/7-1/yellow.jpg'), url('img/7-1/cyan.jpg'), url('img/7-1/magenta.jpg'), url('img/7-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #eight1{
-    height: 270px;
+    height: 280px;
     background-image: url('img/8-1/yellow.jpg'), url('img/8-1/cyan.jpg'), url('img/8-1/magenta.jpg'), url('img/8-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #nine1{
-    height: 260px;
-    background-image: url('img/9-1/yellow.jpg'), url('img/9-1/cyan.jpg'), url('img/9-1/magenta.jpg'), url('img/9-1/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#nine2{
     height: 270px;
-    background-image: url('img/9-2/yellow.jpg'), url('img/9-2/cyan.jpg'), url('img/9-2/magenta.jpg'), url('img/9-2/black.jpg');
+    background-image: url('img/9-1/yellow.jpg'), url('img/9-1/cyan.jpg'), url('img/9-1/magenta.jpg'), url('img/9-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #ten1{
@@ -333,37 +335,58 @@ h5 {
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #ten2{
-    height: 345px;
+    height: 270px;
     background-image: url('img/10-2/yellow.jpg'), url('img/10-2/cyan.jpg'), url('img/10-2/magenta.jpg'), url('img/10-2/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
-#ten3{
-    height: 345px;
-    background-image: url('img/10-3/yellow.jpg'), url('img/10-3/cyan.jpg'), url('img/10-3/magenta.jpg'), url('img/10-3/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#ten4{
-    height: 355px;
-    background-image: url('img/10-4/yellow.jpg'), url('img/10-4/cyan.jpg'), url('img/10-4/magenta.jpg'), url('img/10-4/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
 #eleven1{
-    height: 310px;
+    height: 260px;
     background-image: url('img/11-1/yellow.jpg'), url('img/11-1/cyan.jpg'), url('img/11-1/magenta.jpg'), url('img/11-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #eleven2{
-    height: 310px;
+    height: 345px;
     background-image: url('img/11-2/yellow.jpg'), url('img/11-2/cyan.jpg'), url('img/11-2/magenta.jpg'), url('img/11-2/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #eleven3{
-    height: 310px;
+    height: 345px;
     background-image: url('img/11-3/yellow.jpg'), url('img/11-3/cyan.jpg'), url('img/11-3/magenta.jpg'), url('img/11-3/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
+#eleven4{
+    height: 355px;
+    background-image: url('img/11-4/yellow.jpg'), url('img/11-4/cyan.jpg'), url('img/11-4/magenta.jpg'), url('img/11-4/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#twelve1{
+    height: 310px;
+    background-image: url('img/12-1/yellow.jpg'), url('img/12-1/cyan.jpg'), url('img/12-1/magenta.jpg'), url('img/12-1/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#twelve2{
+    height: 310px;
+    background-image: url('img/12-2/yellow.jpg'), url('img/12-2/cyan.jpg'), url('img/12-2/magenta.jpg'), url('img/12-2/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#twelve3{
+    height: 310px;
+    background-image: url('img/12-3/yellow.jpg'), url('img/12-3/cyan.jpg'), url('img/12-3/magenta.jpg'), url('img/12-3/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#cat4big {
+    height: 750px;
+    background-image: url('img/other/yellow.png'), url('img/other/cyan.png'), url('img/other/magenta.png');
+    background-position: 45px 0, 45px 45px, 0 0, 0 45px;
+}
 
-#two1:hover, #two2:hover, #two3:hover, #two3:hover, #two4:hover, #two5:hover, #two6:hover, #three1:hover, #three2:hover, #five1:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #nine2:hover, #ten1:hover, #ten2:hover, #ten3:hover, #ten4:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover{
+#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover{
+    background-position: 0 0;
+    transition: background-position 1.5s ;
+    -moz-transition: background-position 1.5s ;
+    -webkit-transition: background-position 1.5s ;
+}
+#cat4big:hover {
     background-position: 0 0;
     transition: background-position 1.5s ;
     -moz-transition: background-position 1.5s ;
@@ -554,68 +577,77 @@ img {
         max-width: 100%;
     }
 
-    #two1 {
+    #three1 {
         height: 230px;
     }
-    #two2 {
+    #three2 {
         height: 220px;
     }
-    #two3 {
+    #three3 {
         height: 240px;
     }
-    #two4 {
+    #three4 {
         height: 230px;
     }
-    #two5 {
+    #three5 {
         height: 220px;
     }
-    #two6 {
+    #three6 {
         height: 235px;
     }
-    #three1{
+    #four1{
         height: 340px;
     }
-    #three2{
+    #four2{
         height: 225px;
     }
     #five1{
-        height: 220px;
+        height: 225px;
+    }
+    #five2{
+        height: 225px;
     }
     #six1{
-        height: 245px;
+        height: 220px;
     }
     #seven1{
-        height: 190px;
+        height: 245px;
     }
     #eight1{
-        height: 200px;
-    }
-    #nine1{
         height: 190px;
     }
-    #nine2{
+    #nine1{
         height: 200px;
     }
     #ten1{
         height: 190px;
     }
     #ten2{
-        height: 250px;
-    }
-    #ten3{
-        height: 250px;
-    }
-    #ten4{
-        height: 260px;
+        height: 200px;
     }
     #eleven1{
-        height: 225px;
+        height: 190px;
     }
     #eleven2{
-        height: 225px;
+        height: 250px;
     }
     #eleven3{
+        height: 250px;
+    }
+    #eleven4{
+        height: 260px;
+    }
+    #twelve1{
         height: 225px;
+    }
+    #twelve2{
+        height: 225px;
+    }
+    #twelve3{
+        height: 225px;
+    }
+    #cat4big{
+        height: 220px;
     }
 
 }
