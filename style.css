@@ -102,6 +102,10 @@ dt {
     padding-top: 60px;
     font-style: italic;
 }
+
+.hide{
+    display:none;
+}
 .chunk {
     height: 90%;
     /*overflow: hidden;*/
@@ -266,15 +270,15 @@ h5 {
 }
 
 #title{
-    text-shadow: -2px 2px #FFFFFF;
+    text-shadow: -3px 3px #FFFFFF;
 }
 
 #produced{
-    text-shadow: -1px 1px #FFFFFF;
+    text-shadow: -2px 2px #FFFFFF;
 }
 
 #spring{
-    text-shadow: -1px 1px #FFFFFF;
+    text-shadow: -2px 2px #FFFFFF;
 }
 
 #three1 {
@@ -412,19 +416,25 @@ h5 {
     background-image: url('img/14-4/yellow.jpg'), url('img/14-4/cyan.jpg'), url('img/14-4/magenta.jpg'), url('img/14-4/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
-#cat4big {
-    height: 750px;
-    background-image: url('img/other/yellow.png'), url('img/other/cyan.png'), url('img/other/magenta.png');
+#circle{
+    height: 500px;
+    background-image: url('img/kinder/yellow.png'), url('img/kinder/cyan.png'), url('img/kinder/magenta.png'), url('img/kinder/black.png');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#big {
+    height: 100%;
+    width: 102%;
+    background-image: url('img/big/yellow.jpg'), url('img/big/cyan.jpg'), url('img/big/magenta.jpg'), url('img/big/black.jpg');
     background-position: 45px 0, 45px 45px, 0 0, 0 45px;
 }
 
-#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover{
+#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #circle:hover{
     background-position: 0 0;
     transition: background-position 1.5s ;
     -moz-transition: background-position 1.5s ;
     -webkit-transition: background-position 1.5s ;
 }
-#cat4big:hover {
+#big:hover {
     background-position: 0 0;
     transition: background-position 1.5s ;
     -moz-transition: background-position 1.5s ;
@@ -705,7 +715,10 @@ img {
     #fourteen4{
         height: 360px;
     }
-    #cat4big{
+    #circle{
+        height: 330px;
+    }
+    #big{
         height: 220px;
     }
 
