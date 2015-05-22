@@ -230,6 +230,7 @@ ol {
     margin-right: 20px;
     font-size: 120px;
     font-weight: bold;
+    text-shadow: 4px 4px #DFDFDF;
 }
 h5 {
     font-size: 30px;
@@ -271,15 +272,15 @@ h5 {
 }
 
 #title{
-    text-shadow: -3px 3px #FFFFFF;
+    text-shadow: 4px 4px #FFFFFF;
 }
 
 #produced{
-    text-shadow: -2px 2px #FFFFFF;
+    text-shadow: 2px 2px #FFFFFF;
 }
 
 #spring{
-    text-shadow: -2px 2px #FFFFFF;
+    text-shadow: 2px 2px #FFFFFF;
 }
 
 #three1 {
