@@ -3,9 +3,14 @@
    License: none (public domain)
 */
 
-@font-face{
-    font-family: RobotoSlabLight;
-    src: url(roboto-slab.light.ttf);
+/* Roboto Slab Light by Christian Robertson, by free licence from http://www.fontsquirrel.com/fonts/roboto-slab */
+@font-face{ 
+    font-family: 'RobotoSlabLight';
+    src: url('roboto-slab-light/RobotoSlab-Light-webfont.eot');
+    src: url('roboto-slab-light/RobotoSlab-Light-webfont.eot?iefix') format('eot'),
+         url('roboto-slab-light/RobotoSlab-Light-webfont.woff') format('woff'),
+         url('roboto-slab-light/RobotoSlab-Light-webfont.ttf') format('truetype'),
+         url('roboto-slab-light/RobotoSlab-Light-webfont.svg#webfont') format('svg');
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -46,10 +51,7 @@ table {
     -webkit-box-sizing: border-box;
 }
 body {
-    /*font-family: CenturyOldStyle, 'Century Old Style STD', serif;
-    font-size: 18px;*/
-    /*font-family: 'Roboto Slab', serif;*/
-    font-family: RobotoSlabLight;
+    font-family: 'RobotoSlabLight';
     font-size: 16px;
     letter-spacing: .025em;
     overflow-x: hidden;
@@ -60,7 +62,6 @@ a {
 section {
     /*background-color: white;*/
     /*height: 100vh;*/
-    
     min-height: 720px;
     width: 100%;
     margin: 0;
@@ -421,14 +422,44 @@ h5 {
     background-image: url('img/kinder/yellow.png'), url('img/kinder/cyan.png'), url('img/kinder/magenta.png'), url('img/kinder/black.png');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
+#network{
+    height: 300px;
+    background-image: url('img/network/yellow.png'), url('img/network/cyan.png'), url('img/network/magenta.png'), url('img/network/black.png');
+    background-position: -25px 0, 25px 25px, 0 0, 0 25px;
+}
+#books {
+    height: 300px;
+    background-image: url('img/books/yellow.png'), url('img/books/cyan.png'), url('img/books/magenta.png'), url('img/books/black.png');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#friends {
+    height: 250px;
+    background-image: url('img/friends/yellow.png'), url('img/friends/cyan.png'), url('img/friends/magenta.png'), url('img/friends/black.png');
+    background-position: -15px 0, 15px 15px, 0 0, 0 15px;
+}
+#pentagon {
+    height: 250px;
+    background-image: url('img/pentagon/yellow.png'), url('img/pentagon/cyan.png'), url('img/pentagon/magenta.png'), url('img/pentagon/black.png');
+    background-position: -15px 0, 15px 15px, 0 0, 0 15px;
+}
+#pig {
+    height: 250px;
+    background-image: url('img/pig/yellow.png'), url('img/pig/cyan.png'), url('img/pig/magenta.png'), url('img/pig/black.png');
+    background-position: -15px 0, 15px 15px, 0 0, 0 15px;
+}
+#rocket {
+    height: 275px;
+    background-image: url('img/rocket/yellow.png'), url('img/rocket/cyan.png'), url('img/rocket/magenta.png'), url('img/rocket/black.png');
+    background-position: 15px 15px, 15px 0, -5px -5px, 0 15px;
+}
 #big {
     height: 100%;
-    width: 102%;
+    width: 103%;
     background-image: url('img/big/yellow.jpg'), url('img/big/cyan.jpg'), url('img/big/magenta.jpg'), url('img/big/black.jpg');
-    background-position: 45px 0, 45px 45px, 0 0, 0 45px;
+    background-position: 45px 0, 45px 45px, -45px -45px, 0 45px;
 }
 
-#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #circle:hover{
+#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
     background-position: 0 0;
     transition: background-position 1.5s ;
     -moz-transition: background-position 1.5s ;
@@ -446,25 +477,7 @@ h5 {
     -moz-transition: background-position 1.5s 0;
     -webkit-transition: background-position 1.5s 0;
 }
-/*
-#seventeen2 {
-    height: 310px;
-    background-image: url('img/17-2/yellow.jpg'), url('img/17-2/cyan.jpg'), url('img/17-2/magenta.jpg'), url('img/17-2/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#two1:hover, #two1:active, #two2:hover, #two3:hover, #two4:hover, #two5:hover, #three1:hover, #three2:hover, #three3:hover, #four1:hover, #four2:hover, #seven1:hover, #seven2:hover, #seven3:hover, #ten1:hover, #ten2:hover, #ten3:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #eleven5:hover, #eleven6:hover, #thirteen1:hover, #thirteen2:hover, #fourteen1:hover, #fifteen1:hover, #fifteen2:hover, #sixteen1:hover, #sixteen2:hover, #seventeen1:hover, #seventeen2:hover {
-    background-position: 0 0;
-    transition: background-position 1.5s ;
-    -moz-transition: background-position 1.5s ;
-    -webkit-transition: background-position 1.5s ;
-}
-#one1:hover, #three4:hover, #ten4:hover, #twelve1:hover {
-    background-position: 13px 13px;
-    transition: background-position 1.5s 0;
-    -moz-transition: background-position 1.5s 0;
-    -webkit-transition: background-position 1.5s 0;
-}
-*/
+
 img {
     max-width: 420px;
     padding-bottom: 10px;
@@ -718,8 +731,26 @@ img {
     #circle{
         height: 330px;
     }
+    #network {
+        height: 200px;
+    }
+    #books {
+        height: 200px;
+    }
+    #friends {
+        height: 170px;
+    }
+    #pentagon {
+        height: 170px;
+    }
+    #pig {
+        height: 200px;
+    }
+    #rocket {
+        height: 200px;
+    }
     #big{
-        height: 220px;
+        height: 300px;
     }
 
 }
