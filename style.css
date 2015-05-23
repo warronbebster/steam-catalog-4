@@ -282,6 +282,12 @@ h5 {
 #spring{
     text-shadow: 2px 2px #FFFFFF;
 }
+
+#STEAM {
+    height: 600px;
+    background-image: url('img/STEAM/yellow.jpg'), url('img/STEAM/cyan.jpg'), url('img/STEAM/magenta.jpg'), url('img/STEAM/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
 #two1 {
     margin-top:5px;
     height: 275px;
@@ -329,6 +335,7 @@ h5 {
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #three4 {
+    margin-top:10px;
     height: 330px;
     background-image: url('img/3-4/yellow.jpg'), url('img/3-4/cyan.jpg'), url('img/3-4/magenta.jpg'), url('img/3-4/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
@@ -505,7 +512,7 @@ h5 {
     background-position: 45px 0, 45px 45px, -45px -45px, 0 45px;
 }
 
-#two1:hover, #two2:hover, #two3:hover, #two4:hover, #two5:hover, #two6:hover,#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #thirteen1:hover, #thirteen2:hover, #thirteen3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
+#STEAM:hover,#two1:hover, #two2:hover, #two3:hover, #two4:hover, #two5:hover, #two6:hover,#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #thirteen1:hover, #thirteen2:hover, #thirteen3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
     background-position: 0 0;
     transition: background-position 1.5s ;
     -moz-transition: background-position 1.5s ;
@@ -692,7 +699,9 @@ img {
     .text_img {
         max-width: 100%;
     }
-
+    #STEAM{
+        height: 300px;
+    }
     #two1 {
         height: 200px;
     }
