@@ -282,7 +282,37 @@ h5 {
 #spring{
     text-shadow: 2px 2px #FFFFFF;
 }
-
+#two1 {
+    margin-top:5px;
+    height: 275px;
+    background-image: url('img/2-1/yellow.jpg'), url('img/2-1/cyan.jpg'), url('img/2-1/magenta.jpg'), url('img/2-1/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#two2 {
+    height: 260px;
+    background-image: url('img/2-2/yellow.jpg'), url('img/2-2/cyan.jpg'), url('img/2-2/magenta.jpg'), url('img/2-2/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#two3 {
+    height: 445px;
+    background-image: url('img/2-3/yellow.jpg'), url('img/2-3/cyan.jpg'), url('img/2-3/magenta.jpg'), url('img/2-3/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#two4 {
+    height: 335px;
+    background-image: url('img/2-4/yellow.jpg'), url('img/2-4/cyan.jpg'), url('img/2-4/magenta.jpg'), url('img/2-4/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#two5 {
+    height: 265px;
+    background-image: url('img/2-5/yellow.jpg'), url('img/2-5/cyan.jpg'), url('img/2-5/magenta.jpg'), url('img/2-5/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#two6 {
+    height: 325px;
+    background-image: url('img/2-6/yellow.jpg'), url('img/2-6/cyan.jpg'), url('img/2-6/magenta.jpg'), url('img/2-6/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
 #three1 {
     height: 325px;
     background-image: url('img/3-1/yellow.jpg'), url('img/3-1/cyan.jpg'), url('img/3-1/magenta.jpg'), url('img/3-1/black.jpg');
@@ -475,7 +505,7 @@ h5 {
     background-position: 45px 0, 45px 45px, -45px -45px, 0 45px;
 }
 
-#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #thirteen1:hover, #thirteen2:hover, #thirteen3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
+#two1:hover, #two2:hover, #two3:hover, #two4:hover, #two5:hover, #two6:hover,#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #thirteen1:hover, #thirteen2:hover, #thirteen3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
     background-position: 0 0;
     transition: background-position 1.5s ;
     -moz-transition: background-position 1.5s ;
@@ -663,6 +693,24 @@ img {
         max-width: 100%;
     }
 
+    #two1 {
+        height: 200px;
+    }
+    #two2 {
+        height: 190px;
+    }
+    #two3 {
+        height: 325px;
+    }
+    #two4 {
+        height: 240px;
+    }
+    #two5 {
+        height: 190px;
+    }
+    #two6 {
+        height: 230px;
+    }
     #three1 {
         height: 230px;
     }
