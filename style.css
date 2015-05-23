@@ -398,6 +398,21 @@ h5 {
     background-image: url('img/12-3/yellow.jpg'), url('img/12-3/cyan.jpg'), url('img/12-3/magenta.jpg'), url('img/12-3/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
+#thirteen1{
+    height: 340px;
+    background-image: url('img/13-1/yellow.jpg'), url('img/13-1/cyan.jpg'), url('img/13-1/magenta.jpg'), url('img/13-1/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#thirteen2{
+    height: 310px;
+    background-image: url('img/13-2/yellow.jpg'), url('img/13-2/cyan.jpg'), url('img/13-2/magenta.jpg'), url('img/13-2/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#thirteen3{
+    height: 450px;
+    background-image: url('img/13-3/yellow.jpg'), url('img/13-3/cyan.jpg'), url('img/13-3/magenta.jpg'), url('img/13-3/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
 #fourteen1{
     height: 310px;
     background-image: url('img/14-1/yellow.jpg'), url('img/14-1/cyan.jpg'), url('img/14-1/magenta.jpg'), url('img/14-1/black.jpg');
@@ -460,7 +475,7 @@ h5 {
     background-position: 45px 0, 45px 45px, -45px -45px, 0 45px;
 }
 
-#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
+#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #thirteen1:hover, #thirteen2:hover, #thirteen3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
     background-position: 0 0;
     transition: background-position 1.5s ;
     -moz-transition: background-position 1.5s ;
@@ -716,6 +731,15 @@ img {
     }
     #twelve3{
         height: 225px;
+    }
+    #thirteen1{
+        height: 250px;
+    }
+    #thirteen2{
+        height: 225px;
+    }
+    #thirteen3{
+        height: 320px;
     }
     #fourteen1{
         height: 225px;
