@@ -398,103 +398,103 @@ h5 {
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #eight1{
-    height: 280px;
+    height: 310px;
     background-image: url('img/8-1/yellow.jpg'), url('img/8-1/cyan.jpg'), url('img/8-1/magenta.jpg'), url('img/8-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
-#nine1{
+#eight2{
+    height: 310px;
+    background-image: url('img/8-2/yellow.jpg'), url('img/8-2/cyan.jpg'), url('img/8-2/magenta.jpg'), url('img/8-2/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#eight3{
+    height: 310px;
+    background-image: url('img/8-3/yellow.jpg'), url('img/8-3/cyan.jpg'), url('img/8-3/magenta.jpg'), url('img/8-3/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#squiggly1{
+    height: 260px;
+    background-image: url('img/squiggly-1/yellow.jpg'), url('img/squiggly-1/cyan.jpg'), url('img/squiggly-1/magenta.jpg'), url('img/squiggly-1/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#squiggly2{
+    height: 345px;
+    background-image: url('img/squiggly-2/yellow.jpg'), url('img/squiggly-2/cyan.jpg'), url('img/squiggly-2/magenta.jpg'), url('img/squiggly-2/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#squiggly3{
+    height: 345px;
+    background-image: url('img/squiggly-3/yellow.jpg'), url('img/squiggly-3/cyan.jpg'), url('img/squiggly-3/magenta.jpg'), url('img/squiggly-3/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#squiggly4{
+    height: 355px;
+    background-image: url('img/squiggly-4/yellow.jpg'), url('img/squiggly-4/cyan.jpg'), url('img/squiggly-4/magenta.jpg'), url('img/squiggly-4/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#mapping1{
+    height: 280px;
+    background-image: url('img/mapping-1/yellow.jpg'), url('img/mapping-1/cyan.jpg'), url('img/mapping-1/magenta.jpg'), url('img/mapping-1/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#optical1{
     height: 270px;
-    background-image: url('img/9-1/yellow.jpg'), url('img/9-1/cyan.jpg'), url('img/9-1/magenta.jpg'), url('img/9-1/black.jpg');
+    background-image: url('img/optical-1/yellow.jpg'), url('img/optical-1/cyan.jpg'), url('img/optical-1/magenta.jpg'), url('img/optical-1/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#lighting1{
+    height: 260px;
+    background-image: url('img/lighting-1/yellow.jpg'), url('img/lighting-1/cyan.jpg'), url('img/lighting-1/magenta.jpg'), url('img/lighting-1/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#lighting2{
+    height: 270px;
+    background-image: url('img/lighting-2/yellow.jpg'), url('img/lighting-2/cyan.jpg'), url('img/lighting-2/magenta.jpg'), url('img/lighting-2/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#recycling1{
+    height: 325px;
+    background-image: url('img/recycling-1/yellow.jpg'), url('img/recycling-1/cyan.jpg'), url('img/recycling-1/magenta.jpg'), url('img/recycling-1/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#recycling2{
+    height: 325px;
+    background-image: url('img/recycling-2/yellow.jpg'), url('img/recycling-2/cyan.jpg'), url('img/recycling-2/magenta.jpg'), url('img/recycling-2/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #ten1{
-    height: 260px;
+    height: 340px;
     background-image: url('img/10-1/yellow.jpg'), url('img/10-1/cyan.jpg'), url('img/10-1/magenta.jpg'), url('img/10-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #ten2{
-    height: 270px;
+    height: 310px;
     background-image: url('img/10-2/yellow.jpg'), url('img/10-2/cyan.jpg'), url('img/10-2/magenta.jpg'), url('img/10-2/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
+#ten3{
+    height: 450px;
+    background-image: url('img/10-3/yellow.jpg'), url('img/10-3/cyan.jpg'), url('img/10-3/magenta.jpg'), url('img/10-3/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
 #eleven1{
-    height: 325px;
+    height: 310px;
     background-image: url('img/11-1/yellow.jpg'), url('img/11-1/cyan.jpg'), url('img/11-1/magenta.jpg'), url('img/11-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #eleven2{
-    height: 325px;
+    height: 310px;
     background-image: url('img/11-2/yellow.jpg'), url('img/11-2/cyan.jpg'), url('img/11-2/magenta.jpg'), url('img/11-2/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
-#twelve1{
-    height: 260px;
-    background-image: url('img/12-1/yellow.jpg'), url('img/12-1/cyan.jpg'), url('img/12-1/magenta.jpg'), url('img/12-1/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#twelve2{
-    height: 345px;
-    background-image: url('img/12-2/yellow.jpg'), url('img/12-2/cyan.jpg'), url('img/12-2/magenta.jpg'), url('img/12-2/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#twelve3{
-    height: 345px;
-    background-image: url('img/12-3/yellow.jpg'), url('img/12-3/cyan.jpg'), url('img/12-3/magenta.jpg'), url('img/12-3/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#twelve4{
-    height: 355px;
-    background-image: url('img/12-4/yellow.jpg'), url('img/12-4/cyan.jpg'), url('img/12-4/magenta.jpg'), url('img/12-4/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#thirteen1{
+#eleven3{
     height: 310px;
-    background-image: url('img/13-1/yellow.jpg'), url('img/13-1/cyan.jpg'), url('img/13-1/magenta.jpg'), url('img/13-1/black.jpg');
+    background-image: url('img/11-3/yellow.jpg'), url('img/11-3/cyan.jpg'), url('img/11-3/magenta.jpg'), url('img/11-3/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
-#thirteen2{
-    height: 310px;
-    background-image: url('img/13-2/yellow.jpg'), url('img/13-2/cyan.jpg'), url('img/13-2/magenta.jpg'), url('img/13-2/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#thirteen3{
-    height: 310px;
-    background-image: url('img/13-3/yellow.jpg'), url('img/13-3/cyan.jpg'), url('img/13-3/magenta.jpg'), url('img/13-3/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#fourteen1{
-    height: 340px;
-    background-image: url('img/14-1/yellow.jpg'), url('img/14-1/cyan.jpg'), url('img/14-1/magenta.jpg'), url('img/14-1/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#fourteen2{
-    height: 310px;
-    background-image: url('img/14-2/yellow.jpg'), url('img/14-2/cyan.jpg'), url('img/14-2/magenta.jpg'), url('img/14-2/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#fourteen3{
-    height: 450px;
-    background-image: url('img/14-3/yellow.jpg'), url('img/14-3/cyan.jpg'), url('img/14-3/magenta.jpg'), url('img/14-3/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#fifteen1{
-    height: 310px;
-    background-image: url('img/15-1/yellow.jpg'), url('img/15-1/cyan.jpg'), url('img/15-1/magenta.jpg'), url('img/15-1/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#fifteen2{
-    height: 310px;
-    background-image: url('img/15-2/yellow.jpg'), url('img/15-2/cyan.jpg'), url('img/15-2/magenta.jpg'), url('img/15-2/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#fifteen3{
-    height: 310px;
-    background-image: url('img/15-3/yellow.jpg'), url('img/15-3/cyan.jpg'), url('img/15-3/magenta.jpg'), url('img/15-3/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#fifteen4{
+#eleven4{
     height: 750px;
-    background-image: url('img/15-4/yellow.jpg'), url('img/15-4/cyan.jpg'), url('img/15-4/magenta.jpg'), url('img/15-4/black.jpg');
+    background-image: url('img/11-4/yellow.jpg'), url('img/11-4/cyan.jpg'), url('img/11-4/magenta.jpg'), url('img/11-4/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #circle{
@@ -539,7 +539,7 @@ h5 {
     background-position: 45px 0, 45px 45px, -45px -45px, 0 45px;
 }
 
-#STEAM:hover,#two1:hover, #two2:hover, #two3:hover, #two4:hover, #two5:hover, #two6:hover,#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #twelve4:hover, #thirteen1:hover, #thirteen2:hover, #thirteen3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #fifteen1:hover, #fifteen2:hover, #fifteen3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
+#STEAM:hover,#two1:hover, #two2:hover, #two3:hover, #two4:hover, #two5:hover, #two6:hover,#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #mapping1:hover, #optical1:hover, #lighting1:hover, #lighting2:hover, #recycling1:hover, #recycling2:hover, #squiggly1:hover, #squiggly2:hover, #squiggly3:hover, #squiggly4:hover, #eight1:hover, #eight2:hover, #eight3:hover, #ten1:hover, #ten2:hover, #ten3:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
     background-position: 0 0;
     transition: background-position 1.5s ;
     -moz-transition: background-position 1.5s ;
@@ -551,7 +551,7 @@ h5 {
     -moz-transition: background-position 1.5s ;
     -webkit-transition: background-position 1.5s ;
 }
-#fifteen4:hover{
+#eleven4:hover{
     background-position: 13px 13px;
     transition: background-position 1.5s 0;
     -moz-transition: background-position 1.5s 0;
@@ -784,63 +784,63 @@ img {
         height: 245px;
     }
     #eight1{
+        height: 225px;
+    }
+    #eight2{
+        height: 225px;
+    }
+    #eight3{
+        height: 225px;
+    }
+    #squiggly1{
         height: 190px;
     }
-    #nine1{
-        height: 200px;
-    }
-    #ten1{
-        height: 190px;
-    }
-    #ten2{
-        height: 200px;
-    }
-    #eleven1{
-        height:235px;
-    }
-    #eleven2{
-        height:235px;
-    }
-    #twelve1{
-        height: 190px;
-    }
-    #twelve2{
+    #squiggly2{
         height: 250px;
     }
-    #twelve3{
+    #squiggly3{
         height: 250px;
     }
-    #twelve4{
+    #squiggly4{
         height: 260px;
     }
-    #thirteen1{
-        height: 225px;
+    #mapping1{
+        height: 190px;
     }
-    #thirteen2{
-        height: 225px;
+    #optical1{
+        height: 200px;
     }
-    #thirteen3{
-        height: 225px;
+    #lighting1{
+        height: 190px;
     }
-    #fourteen1{
+    #lighting2{
+        height: 200px;
+    }
+    #recycling1{
+        height:235px;
+    }
+    #recycling2{
+        height:235px;
+    }
+    #ten1{
         height: 250px;
     }
-    #fourteen2{
+    #ten2{
         height: 225px;
     }
-    #fourteen3{
+    #ten3{
         height: 320px;
     }
-    #fifteen1{
+    #eleven1{
         height: 225px;
     }
-    #fifteen2{
+    #eleven2{
         height: 225px;
     }
-    #fifteen3{
+    #eleven3{
         height: 225px;
     }
-    #fifteen4{
+    #eleven4{
         height: 360px;
     }
     #circle{
