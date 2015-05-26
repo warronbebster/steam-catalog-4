@@ -549,37 +549,38 @@ h5 {
     background-image: url('img/big/yellow.jpg'), url('img/big/cyan.jpg'), url('img/big/magenta.jpg'), url('img/big/black.jpg');
     background-position: 45px 0, 45px 45px, -45px -45px, 0 45px;
 }
-/* Static versions, no offset */
-#STEAMstatic {
+
+/* Static versions, no offset (This was not an efficient way to do it but it works!, fix next year)*/
+/*#STEAMstatic {
     height: 600px;
-    background-image: url('img/STEAM/yellow.jpg'), url('img/STEAM/cyan.jpg'), url('img/STEAM/magenta.jpg'), url('img/STEAM/black.jpg');
-    background-position: 0 0, 0 0, 0 0, 0 0;
+    background-image: url('orig/STEAM.jpg');
+    background-position: 0 0;
 }
 #two1static {
     margin-top:5px;
     height: 275px;
-    background-image: url('img/2-1/yellow.jpg'), url('img/2-1/cyan.jpg'), url('img/2-1/magenta.jpg'), url('img/2-1/black.jpg');
-    background-position: 0 0, 0 0, 0 0, 0 0;
+    background-image: url('orig/2-1.JPG');
+    background-position: 0 0;
 }
 #two2static {
     height: 260px;
-    background-image: url('img/2-2/yellow.jpg'), url('img/2-2/cyan.jpg'), url('img/2-2/magenta.jpg'), url('img/2-2/black.jpg');
-    background-position: 0 0, 0 0, 0 0, 0 0;
+    background-image: url('orig/2-1.JPG');
+    background-position: 0 0;
 }
 #two3static {
     height: 445px;
-    background-image: url('img/2-3/yellow.jpg'), url('img/2-3/cyan.jpg'), url('img/2-3/magenta.jpg'), url('img/2-3/black.jpg');
-    background-position: 0 0, 0 0, 0 0, 0 0;
+    background-image: url('orig/2-3.jpg');
+    background-position: 0 0;
 }
 #two4static {
     height: 335px;
-    background-image: url('img/2-4/yellow.jpg'), url('img/2-4/cyan.jpg'), url('img/2-4/magenta.jpg'), url('img/2-4/black.jpg');
-    background-position: 0 0, 0 0, 0 0, 0 0;
+    background-image: url('orig/2-4.jpg');
+    background-position: 0 0;
 }
 #two5static {
     height: 265px;
-    background-image: url('img/2-5/yellow.jpg'), url('img/2-5/cyan.jpg'), url('img/2-5/magenta.jpg'), url('img/2-5/black.jpg');
-    background-position: 0 0, 0 0, 0 0, 0 0;
+    background-image: url('orig/2-5.jpg');
+    background-position: 0 0;
 }
 #two6static {
     height: 325px;
@@ -798,6 +799,7 @@ h5 {
     background-image: url('img/big/yellow.jpg'), url('img/big/cyan.jpg'), url('img/big/magenta.jpg'), url('img/big/black.jpg');
     background-position: 0 0, 0 0, 0 0, 0 0;
 }
+*/
 
 #STEAM:hover,#two1:hover, #two2:hover, #two3:hover, #two4:hover, #two5:hover, #two6:hover,#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #mapping1:hover, #optical1:hover, #lighting1:hover, #lighting2:hover, #recycling1:hover, #recycling2:hover, #squiggly1:hover, #squiggly2:hover, #squiggly3:hover, #squiggly4:hover, #eight1:hover, #eight2:hover, #eight3:hover, #ten1:hover, #ten2:hover, #ten3:hover, #eleven1:hover, #eleven2:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
     background-position: 0 0;
@@ -1135,6 +1137,7 @@ img {
     }
 
     /*static versions*/
+    /*
     #STEAMstatic{
         height: 450px;
     }
@@ -1281,6 +1284,6 @@ img {
     }
     #bigstatic{
         height: 300px;
-    }
+    }*/
 
 }
