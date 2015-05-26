@@ -418,8 +418,13 @@ h5 {
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #eleven1{
-    height: 260px;
+    height: 325px;
     background-image: url('img/11-1/yellow.jpg'), url('img/11-1/cyan.jpg'), url('img/11-1/magenta.jpg'), url('img/11-1/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#eleven2{
+    height: 325px;
+    background-image: url('img/11-2/yellow.jpg'), url('img/11-2/cyan.jpg'), url('img/11-2/magenta.jpg'), url('img/11-2/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #twelve1{
@@ -534,7 +539,7 @@ h5 {
     background-position: 45px 0, 45px 45px, -45px -45px, 0 45px;
 }
 
-#STEAM:hover,#two1:hover, #two2:hover, #two3:hover, #two4:hover, #two5:hover, #two6:hover,#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #twelve4:hover, #thirteen1:hover, #thirteen2:hover, #thirteen3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #fifteen1:hover, #fifteen2:hover, #fifteen3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
+#STEAM:hover,#two1:hover, #two2:hover, #two3:hover, #two4:hover, #two5:hover, #two6:hover,#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #twelve4:hover, #thirteen1:hover, #thirteen2:hover, #thirteen3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #fifteen1:hover, #fifteen2:hover, #fifteen3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
     background-position: 0 0;
     transition: background-position 1.5s ;
     -moz-transition: background-position 1.5s ;
@@ -791,7 +796,10 @@ img {
         height: 200px;
     }
     #eleven1{
-        height:200px;
+        height:235px;
+    }
+    #eleven2{
+        height:235px;
     }
     #twelve1{
         height: 190px;
