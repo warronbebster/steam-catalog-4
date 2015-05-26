@@ -226,11 +226,12 @@ ol {
     color: black;
 }
 
-.lightbold{
+.bold{
     font-weight: bold;
     letter-spacing:0;
 }
-.bold {
+/*Subheader bold is 'bolder'*/
+.subheaderbold {
     font-family: 'RobotoSlabRegular';
     font-weight: 600;
     letter-spacing:0;
