@@ -478,23 +478,28 @@ h5 {
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #eleven1{
-    height: 310px;
+    height: 480px;
     background-image: url('img/11-1/yellow.jpg'), url('img/11-1/cyan.jpg'), url('img/11-1/magenta.jpg'), url('img/11-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
-#eleven2{
+#twelve1{
     height: 310px;
-    background-image: url('img/11-2/yellow.jpg'), url('img/11-2/cyan.jpg'), url('img/11-2/magenta.jpg'), url('img/11-2/black.jpg');
+    background-image: url('img/12-1/yellow.jpg'), url('img/12-1/cyan.jpg'), url('img/12-1/magenta.jpg'), url('img/12-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
-#eleven3{
+#twelve2{
     height: 310px;
-    background-image: url('img/11-3/yellow.jpg'), url('img/11-3/cyan.jpg'), url('img/11-3/magenta.jpg'), url('img/11-3/black.jpg');
+    background-image: url('img/12-2/yellow.jpg'), url('img/12-2/cyan.jpg'), url('img/12-2/magenta.jpg'), url('img/12-2/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
-#eleven4{
+#twelve3{
+    height: 310px;
+    background-image: url('img/12-3/yellow.jpg'), url('img/12-3/cyan.jpg'), url('img/12-3/magenta.jpg'), url('img/12-3/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#twelve4{
     height: 750px;
-    background-image: url('img/11-4/yellow.jpg'), url('img/11-4/cyan.jpg'), url('img/11-4/magenta.jpg'), url('img/11-4/black.jpg');
+    background-image: url('img/12-4/yellow.jpg'), url('img/12-4/cyan.jpg'), url('img/12-4/magenta.jpg'), url('img/12-4/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #circle{
@@ -539,7 +544,7 @@ h5 {
     background-position: 45px 0, 45px 45px, -45px -45px, 0 45px;
 }
 
-#STEAM:hover,#two1:hover, #two2:hover, #two3:hover, #two4:hover, #two5:hover, #two6:hover,#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #mapping1:hover, #optical1:hover, #lighting1:hover, #lighting2:hover, #recycling1:hover, #recycling2:hover, #squiggly1:hover, #squiggly2:hover, #squiggly3:hover, #squiggly4:hover, #eight1:hover, #eight2:hover, #eight3:hover, #ten1:hover, #ten2:hover, #ten3:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
+#STEAM:hover,#two1:hover, #two2:hover, #two3:hover, #two4:hover, #two5:hover, #two6:hover,#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #mapping1:hover, #optical1:hover, #lighting1:hover, #lighting2:hover, #recycling1:hover, #recycling2:hover, #squiggly1:hover, #squiggly2:hover, #squiggly3:hover, #squiggly4:hover, #eight1:hover, #eight2:hover, #eight3:hover, #ten1:hover, #ten2:hover, #ten3:hover, #eleven1:hover,#twelve1:hover, #twelve2:hover, #twelve3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
     background-position: 0 0;
     transition: background-position 1.5s ;
     -moz-transition: background-position 1.5s ;
@@ -551,7 +556,7 @@ h5 {
     -moz-transition: background-position 1.5s ;
     -webkit-transition: background-position 1.5s ;
 }
-#eleven4:hover{
+#twelve4:hover{
     background-position: 13px 13px;
     transition: background-position 1.5s 0;
     -moz-transition: background-position 1.5s 0;
@@ -832,15 +837,18 @@ img {
         height: 320px;
     }
     #eleven1{
+        height: 330px;
+    }
+    #twelve1{
         height: 225px;
     }
-    #eleven2{
+    #twelve2{
         height: 225px;
     }
-    #eleven3{
+    #twelve3{
         height: 225px;
     }
-    #eleven4{
+    #twelve4{
         height: 360px;
     }
     #circle{
