@@ -13,6 +13,16 @@
          url('roboto-slab-light/RobotoSlab-Light-webfont.svg#webfont') format('svg');
 }
 
+/* Roboto Slab Regular by Christian Robertson, by free licence from http://www.fontsquirrel.com/fonts/roboto-slab */
+@font-face{ 
+    font-family: 'RobotoSlabRegular';
+    src: url('roboto-slab-regular/RobotoSlab-Regular-webfont.eot');
+    src: url('roboto-slab-regular/RobotoSlab-Regular-webfont.eot?iefix') format('eot'),
+         url('roboto-slab-regular/RobotoSlab-Regular-webfont.woff') format('woff'),
+         url('roboto-slab-regular/RobotoSlab-Regular-webfont.ttf') format('truetype'),
+         url('roboto-slab-regular/RobotoSlab-Regular-webfont.svg#webfont') format('svg');
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -207,7 +217,7 @@ ol {
     background-color: #555;
     background-image: url('img/colorbars.jpg');
     background-size: 100% 100%;
-    background-blend-mode: screen;
+    /*background-blend-mode: screen;*/
 }
 #cover article {
     padding-bottom: 0px;
@@ -215,8 +225,14 @@ ol {
 #cover article h1, #cover article h2, #cover article h3, #cover article a{
     color: black;
 }
-.bold {
+
+.lightbold{
     font-weight: bold;
+    letter-spacing:0;
+}
+.bold {
+    font-family: 'RobotoSlabRegular';
+    font-weight: 600;
     letter-spacing:0;
 }
 
@@ -405,38 +421,28 @@ h5 {
     background-image: url('img/11-1/yellow.jpg'), url('img/11-1/cyan.jpg'), url('img/11-1/magenta.jpg'), url('img/11-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
-#eleven2{
-    height: 345px;
-    background-image: url('img/11-2/yellow.jpg'), url('img/11-2/cyan.jpg'), url('img/11-2/magenta.jpg'), url('img/11-2/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#eleven3{
-    height: 345px;
-    background-image: url('img/11-3/yellow.jpg'), url('img/11-3/cyan.jpg'), url('img/11-3/magenta.jpg'), url('img/11-3/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
-#eleven4{
-    height: 355px;
-    background-image: url('img/11-4/yellow.jpg'), url('img/11-4/cyan.jpg'), url('img/11-4/magenta.jpg'), url('img/11-4/black.jpg');
-    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
-}
 #twelve1{
-    height: 310px;
+    height: 260px;
     background-image: url('img/12-1/yellow.jpg'), url('img/12-1/cyan.jpg'), url('img/12-1/magenta.jpg'), url('img/12-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #twelve2{
-    height: 310px;
+    height: 345px;
     background-image: url('img/12-2/yellow.jpg'), url('img/12-2/cyan.jpg'), url('img/12-2/magenta.jpg'), url('img/12-2/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #twelve3{
-    height: 310px;
+    height: 345px;
     background-image: url('img/12-3/yellow.jpg'), url('img/12-3/cyan.jpg'), url('img/12-3/magenta.jpg'), url('img/12-3/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
+#twelve4{
+    height: 355px;
+    background-image: url('img/12-4/yellow.jpg'), url('img/12-4/cyan.jpg'), url('img/12-4/magenta.jpg'), url('img/12-4/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
 #thirteen1{
-    height: 340px;
+    height: 310px;
     background-image: url('img/13-1/yellow.jpg'), url('img/13-1/cyan.jpg'), url('img/13-1/magenta.jpg'), url('img/13-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
@@ -446,12 +452,12 @@ h5 {
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #thirteen3{
-    height: 450px;
+    height: 310px;
     background-image: url('img/13-3/yellow.jpg'), url('img/13-3/cyan.jpg'), url('img/13-3/magenta.jpg'), url('img/13-3/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #fourteen1{
-    height: 310px;
+    height: 340px;
     background-image: url('img/14-1/yellow.jpg'), url('img/14-1/cyan.jpg'), url('img/14-1/magenta.jpg'), url('img/14-1/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
@@ -461,13 +467,28 @@ h5 {
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #fourteen3{
-    height: 310px;
+    height: 450px;
     background-image: url('img/14-3/yellow.jpg'), url('img/14-3/cyan.jpg'), url('img/14-3/magenta.jpg'), url('img/14-3/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
-#fourteen4{
+#fifteen1{
+    height: 310px;
+    background-image: url('img/15-1/yellow.jpg'), url('img/15-1/cyan.jpg'), url('img/15-1/magenta.jpg'), url('img/15-1/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#fifteen2{
+    height: 310px;
+    background-image: url('img/15-2/yellow.jpg'), url('img/15-2/cyan.jpg'), url('img/15-2/magenta.jpg'), url('img/15-2/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#fifteen3{
+    height: 310px;
+    background-image: url('img/15-3/yellow.jpg'), url('img/15-3/cyan.jpg'), url('img/15-3/magenta.jpg'), url('img/15-3/black.jpg');
+    background-position: 25px 0, 25px 25px, 0 0, 0 25px;
+}
+#fifteen4{
     height: 750px;
-    background-image: url('img/14-4/yellow.jpg'), url('img/14-4/cyan.jpg'), url('img/14-4/magenta.jpg'), url('img/14-4/black.jpg');
+    background-image: url('img/15-4/yellow.jpg'), url('img/15-4/cyan.jpg'), url('img/15-4/magenta.jpg'), url('img/15-4/black.jpg');
     background-position: 25px 0, 25px 25px, 0 0, 0 25px;
 }
 #circle{
@@ -512,7 +533,7 @@ h5 {
     background-position: 45px 0, 45px 45px, -45px -45px, 0 45px;
 }
 
-#STEAM:hover,#two1:hover, #two2:hover, #two3:hover, #two4:hover, #two5:hover, #two6:hover,#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #eleven2:hover, #eleven3:hover, #eleven4:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #thirteen1:hover, #thirteen2:hover, #thirteen3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
+#STEAM:hover,#two1:hover, #two2:hover, #two3:hover, #two4:hover, #two5:hover, #two6:hover,#three1:hover, #three2:hover, #three3:hover, #three3:hover, #three4:hover, #three5:hover, #three6:hover, #four1:hover, #four2:hover, #five1:hover, #five2:hover, #six1:hover, #seven1:hover, #eight1:hover, #nine1:hover, #ten1:hover, #ten2:hover, #eleven1:hover, #twelve1:hover, #twelve2:hover, #twelve3:hover, #twelve4:hover, #thirteen1:hover, #thirteen2:hover, #thirteen3:hover, #fourteen1:hover, #fourteen2:hover, #fourteen3:hover, #fifteen1:hover, #fifteen2:hover, #fifteen3:hover, #circle:hover, #books:hover, #pentagon:hover, #pig:hover, #rocket:hover, #friends:hover, #network:hover{
     background-position: 0 0;
     transition: background-position 1.5s ;
     -moz-transition: background-position 1.5s ;
@@ -524,7 +545,7 @@ h5 {
     -moz-transition: background-position 1.5s ;
     -webkit-transition: background-position 1.5s ;
 }
-#fourteen4:hover{
+#fifteen4:hover{
     background-position: 13px 13px;
     transition: background-position 1.5s 0;
     -moz-transition: background-position 1.5s 0;
@@ -769,45 +790,48 @@ img {
         height: 200px;
     }
     #eleven1{
-        height: 190px;
-    }
-    #eleven2{
-        height: 250px;
-    }
-    #eleven3{
-        height: 250px;
-    }
-    #eleven4{
-        height: 260px;
+        height:200px;
     }
     #twelve1{
-        height: 225px;
+        height: 190px;
     }
     #twelve2{
-        height: 225px;
+        height: 250px;
     }
     #twelve3{
-        height: 225px;
+        height: 250px;
+    }
+    #twelve4{
+        height: 260px;
     }
     #thirteen1{
-        height: 250px;
+        height: 225px;
     }
     #thirteen2{
         height: 225px;
     }
     #thirteen3{
-        height: 320px;
+        height: 225px;
     }
     #fourteen1{
-        height: 225px;
+        height: 250px;
     }
     #fourteen2{
         height: 225px;
     }
     #fourteen3{
+        height: 320px;
+    }
+    #fifteen1{
         height: 225px;
     }
-    #fourteen4{
+    #fifteen2{
+        height: 225px;
+    }
+    #fifteen3{
+        height: 225px;
+    }
+    #fifteen4{
         height: 360px;
     }
     #circle{
